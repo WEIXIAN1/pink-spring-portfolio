@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.tools/
+
+# next.js
+/.next/
+/out/
+/.next-codex*/
+/.pages-verify/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local deliverables, installed skills, and generation sources
+/deliverables/
+/skills/
+/scripts/
+/data/
+/styles/
+/hooks/
+/lib/
+/components.json
+
+# only the cinematic portfolio component is needed for this release
+/components/*
+!/components/cinematic-portfolio.tsx
+
+# only the pink spring video is needed for this release
+/public/*
+!/public/media/
+/public/media/*
+!/public/media/spring-bullet-time.mp4
+!/public/media/spring-bullet-time-final.jpg
+
+# unused experiments and alternate background assets
+/public/media/glass-dream-bullet-time-b.mp4
+/public/media/glass-dream-bullet-time-b-poster.jpg
+/public/media/spring-dreamcore-source.png
